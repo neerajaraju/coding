@@ -35,9 +35,9 @@ public static void main(String args[])
 Iterator itr1=s1.iterator();
 while(itr1.hasNext())
 {
-	Map.Entry me=(Map.Entry) itr1.next();
-	Object ob1=itr1.next();
-	System.out.println(""+ob1);
+	Map.Entry me=(Map.Entry)itr1.next();
+	//Object ob1=itr1.next();
+	//System.out.println(""+ob1);
 	
 	System.out.println(me.getKey());
 	System.out.println(me.getValue());
